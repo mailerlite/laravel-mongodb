@@ -12,7 +12,7 @@ jobs:
     strategy:
       matrix:
         php: ['7.1', '7.2', '7.3', '7.4']
-        os: ['ubuntu-latest']
+        os: ['ubuntu-24.04']
         mongodb: ['3.6', '4.0', '4.2']
     services:
       mongo:
